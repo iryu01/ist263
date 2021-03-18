@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Demo</title>
+        <style> 
+        /* below we have a grouped selector */
+            p, li {
+                color:darkgreen;
+                font-size: 2em;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight:bolder;
+                text-decoration: line-through;
+
+                /* to do the same thing with % font-size; */
+                /* you can look up different formatting properties on w3schools */
+              }
+            /* below is an element selector*/
+            body {
+                 color:darkred;
+             }
+            /* only a tags inside p tags will be green */
+             p a {
+                 color:darkviolet;
+             }
+             /*this is for id selectors*/
+             #firstp {
+                 color:fuchsia;
+             }
+             /*this is for class selectors*/
+             .thirdp {color:yellow;}
+        </style>
+        <!-- p is our selector, color is our property, dark green is the value-->
+        <!-- the declaration is color: darkgreen -->
+        <!-- 1 em is the default size, 2 is twice the size, .5 is half the size-->
+    </head>
+    <body>
+        <!--id values must be unique, we can't have two elements with firstp id values-->
+        <p id="firstp">Lorem ipsum. </p>
+        <p>Second Paragraph</p>
+        <p class="thirdp">Third Paragraph</p>
+        <!--class attributes can be use over and over again with the same value-->
+        <p><a href="http://www.google.com">Google</a></p>
+        <ul>
+            <li>my list item</li>
+            <li><a href="http://www.google.com">Google</a></li>
+        </ul>
+    </body>
+</html>
