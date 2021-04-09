@@ -31,16 +31,15 @@ nav {
 }
 
 nav {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 
 @media only screen and (max-width: 600px) {
     .toolbar {width: 100%;}
     .pipe {display: none;}
-    
     .toolbar {display: flex;
-             flex-wrap: wrap;}
+    flex-direction: column;}
 }
 
 
