@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unit 9 Notes Responsive Design</title>
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            .row1 { 
+                padding: 80px;
+                margin-top: 40px;}
+            .row1 div {
+                padding: 40px;
+            }
+            .banner {width: 100%;}
+            /* any image with 100% will fill the whole screen */
+            .bannersmall {max-width: 100%}
+            /*this says size it 100% of images size or smaller */
+            .row1 {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            /* flex wrap says your boxes can display on seperate rows if there isn't enough space */
+            .box1, .box2, .bo3 {flex: 1;}
+
+            @media only screen and (max-width: 600px) {
+                body {background-color: orange;}
+                .sidebar {display: none;}
+                /* display none takes something off the page */
+            }
+            /* media queries have special styles for certain size of screens */
+            /* 600px is called a breakpoint (styling for cellphones) */
+            @media only screen and (min-width: 920px) {
+                body {background-color: blue;}
+            }
+            .maincontent {width: 70%; float: left;}
+            .sidebar {width: 20%; float: right; border: 1px solid orange;}
+        </style>
+    </head>
+    <body>
+
+        <h1>Flexbox</h1>
+        <div class="maincontent">
+            <!-- large width banner image -->
+            <img src="https://laferger.github.io/ist263/images/forever_orange.jpg" alt="large campus banner" class="banner">
+
+            <!-- smaller width banner image -->
+            <img src="https://laferger.github.io/ist263/images/forever_orange_small.jpg" alt="small campus banner" class="bannersmall">
+            
+            <!-- this row is coming from https://www.syracuse.edu/about/ -->
+            <div class="row1">
+                <div class="box1">
+                    <img src="https://laferger.github.io/ist263/images/eighty-percent-numeral-800x533.png" alt="80 percent"><br>
+                    <p>80% of Syracuse University students received some form of financial support totaling more than $414 million (2019-2020 data)</p>
+                </div>
+                <div class="box2">
+                    <img src="https://laferger.github.io/ist263/images/eighty-seven-percent-800x533.png" alt="80 percent">
+                    <p>87% placement outcome (Graduates in full-and part-time positions, military service, volunteer or service programs, and graduate school.)</p>
+                </div>
+                <div class="box3">
+                    <img src="https://laferger.github.io/ist263/images/ninety-percent-800x533.png" alt="80 percent">
+                    <p>Positions related to Career Goals</p>
+                </div>
+            </div>
+         </div>
+         <div class="sidebar">
+             <aside>
+                 <h2>what does tuition cost?</h2>
+                 <p>
+                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                </p>
+             </aside>
+         </div>
+
+    </body>
+</html>
