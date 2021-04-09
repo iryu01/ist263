@@ -1,0 +1,43 @@
+body {
+    background-color: #EFD28D;
+}
+
+p {
+    color: #2F2D2E;
+}
+
+a:link {
+    color: #A30000;
+}
+
+h1 {
+    color: #FA6900;
+}
+
+nav a {
+    color: #FF7700;
+}
+
+nav a {
+    background-color: #00AFB5;
+}
+
+nav a:hover {
+    background-color: #004777;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .toolbar {width: 100%;}
+    .pipe {display: none;}
+}
+
+
