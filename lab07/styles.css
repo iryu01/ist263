@@ -36,7 +36,7 @@ nav {
 
 
 @media only screen and (max-width: 600px) {
-    .navi {width: 100%;}
-    .span {display: none;}
+    .toolbar {width: 100%;}
+    .pipe {display: none;}
 }
 
