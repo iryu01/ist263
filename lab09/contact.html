@@ -9,8 +9,10 @@
         <style>
             h1 {font-family:Arial, Helvetica, sans-serif}
             .header {display: flex; font-family:Arial, Helvetica, sans-serif}
-            .header article {padding: 10px;}
-            .toolbar {margin: 10px;}
+            .header article {padding: 0px;
+            padding-bottom: 0px;}
+            .toolbar {margin: 10px;
+            margin-bottom: 0px;}
             .toolbar {flex: 1; order: 1; background-color: #cce5ff;}
             
             .part1 {display: flex; font-family:Arial, Helvetica, sans-serif;}
@@ -32,7 +34,10 @@
             .map {flex: 1;}
             .form {flex: 1;}
 
-            
+            nav {padding: 10px;}
+            nav {margin-bottom: 5px;
+                margin-top: 5px;}
+
         </style>
     </head>
     <body>
@@ -42,9 +47,9 @@
         <div class="header">
             <article class="toolbar">
                 <nav>
-                    <a href="../lab06/contact.html">Contact <span class="pipe">&#124;</span></a>
-                    <a href="../lab06/ryu-bio.html">Bio <span class="pipe">&#124;</span></a>
-                    <a href="../lab06/skills.html">Skills</a>
+                   <ul><a href="../lab06/contact.html">Contact <span class="pipe">&#124;</span></a></ul> 
+                   <ul><a href="../lab06/ryu-bio.html">Bio <span class="pipe">&#124;</span></a></ul> 
+                   <ul><a href="../lab06/skills.html">Skills</a></ul> 
                 </nav>
             </article>
          </div>
@@ -89,7 +94,7 @@
                         <label for="gendero">Other</label><br>
 
                         <label for="questions">Questions?</label>
-                        <textarea name="questions" id="questions" rows="10" cols="100">Type your questions here</textarea><br>
+                        <textarea name="questions" id="questions" rows="10" cols="70">Type your questions here</textarea><br>
 
                         <input type="submit" value="Submit">
                     </form>
