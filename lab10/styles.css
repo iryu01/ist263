@@ -7,7 +7,7 @@ p {
 }
 
 a:link {
-    color: #A30000;
+    color: #000000;
 }
 
 h1 {
@@ -19,11 +19,11 @@ nav a {
 }
 
 nav a {
-    background-color: #00AFB5;
+    background-color: #FFFFFF;
 }
 
 nav a:hover {
-    background-color: #004777;
+    background-color: #FF7700;
 }
 
 nav {
