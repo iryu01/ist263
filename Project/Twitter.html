@@ -8,134 +8,172 @@
         <style>
             body {
                 font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(255, 200, 49);
             }
             .logoheader {
                 font-size: 50px;
                 text-align: center;
-                display: inline;
-                height: 400px;
+                margin-top: 50px;
             }
+            .twitterheader {
+                flex: 1; 
+                order: 2; 
+                background-color: #7c99b8; 
+                padding: 8px;
+                margin: 10px;
+                }
             nav {
                 font-size: 20px;
+                margin: 10px;
                 text-align: center;
+                margin-top: 50px;
+                margin-bottom: 50px;
             }
-            body {
-                background-color: rgb(149, 194, 196);
-            }
-            .header1 {
-                float:none;
-                width: 300px;
-                height: 200px;
-            }
-            .header2 {
+            .trending {display: flex; font-family:Arial, Helvetica, sans-serif;}
+            .trending {margin: 10px;}
+            .trending {flex: 1; order: 2; background-color: #7c99b8;}
+            .trendinglist {flex: 1; order: 2;}
+
+            .culture {display: flex; font-family:Arial, Helvetica, sans-serif;}
+            .culture {margin: 10px;}
+            .culture {flex: 1; order: 2; background-color: #7c99b8;}
+            .culturelist {flex: 1; order: 2;}
+
+            .activism {display: flex; font-family:Arial, Helvetica, sans-serif;}
+            .activism {margin: 10px;}
+            .activism {flex: 1; order: 2; background-color: #7c99b8;}
+            .activismlist {flex: 1; order: 2;}
+
+            .billrussell {
                 float: right;
-                width: 300px;
-                height: 200px;
+                width: 450px;
+                padding-right: 15px;
+            }
+            .jamalmurrayverizon {
+                float: right;
+                width: 450px;
+                padding-right: 15px;
+            }
+            .jackierobinsonshirt {
+                float: right;
+                width: 450px;
+                padding-right: 15px;
             }
         </style>
     </head>
 
     <body>
         <header>
-            <img src="../Project/Images/NBAheaderimage1.jpg" class="header1" alt="Lebron James Dunking">
-            <img src="../Project/Images/NBAheaderimage2.jpg" class ="header2" alt="Stephen Curry Jersey from Behind">
             <i><h1 class="logoheader">The Daily Tipoff</h1></i>
             <nav class="otherpages">
                 <a href="Twitter.html">Twitter</a>
                 <a href="Highlights.html">Highlights</a>
+                <a href="News.html">News</a>
             </nav>
         </header>
 
-        <h1>Twitter</h1>
-        <p>
-            This page is dedicated to NBA Twitter. Many NBA players, icons and reporters are active on Twitter which makes for good content. Instant updates from a player after an injury or trash talking after a game contributes to the fun of basketball. Twitter also gives players a platform to speak on issues they care about. 
-        </p>
+        <section class="twitterheader">
+            <h1>Twitter</h1>
+                <p>
+                    This page is dedicated to NBA Twitter. Many NBA players, icons and reporters are active on Twitter which makes for good content. Instant updates from a player after an injury or trash talking after a game contributes to the fun of basketball. Twitter also gives players a platform to speak on issues they care about. 
+                </p>
+        </section>
 
-        <h2>Trending</h2>
-        <p>
-            The most trending tweets of the past 24 hours from NBA players will be found here. Whether it’s a controversial comment from the league’s best or a clip of a LeBron James commenting on refereeing post-game, this section will contain the most newsworthy tweets.
-        </p>
-
-        <ul>
-            <li>
-                <a href="https://twitter.com/NBA/status/1383879482788900865">@NBA: Randle & Zion dueled at MSG today!</a>
-            </li>
-            <li>
-                <a href="https://twitter.com/espn/status/1383777357933158404">@ESPN: 55 years ago, Bill Russell became the first Black coach in NBA history.</a>
-            </li>
-            <li>
-                <a href="https://twitter.com/joeylinn_/status/1383596099089276932">@joeylinn_ Steph Curry is averaging 30 PPG getting defended like this every night.</a>
-            </li>
-            <li>
-                <a href="https://twitter.com/Money23Green/status/1383867933248548864">@Money23Green: D Rose still really F%^**$% Good!
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/ESPNNBA/status/1383937690429648900">@ESPNNBA: There's no point in jumping with Miles Bridges 
-                </a>
-            </li>
-        </ul>
-
-        <h2>Culture</h2>
-        <p>
-            This section will contain tweets from players not pertaining to basketball. Several players like have hobbies or passions outside of basketball and it’s important to understand the stories of NBA players outside of their play.
-        </p>
-
-        <ul>
-            <li>
-                <a href="https://twitter.com/BleacherReport/status/1383808499293974531">@BleacherReport: Tatum after his son, Deuce, got to watch him drop 44 points last night
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/KingJames/status/1383901851540545549">@KingJames: BAM BAM
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/RTNBA/status/1383940335408091144">@RTNBA: Kevin Durant names the top 5 players he’s played with. 
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/BeMore27/status/1380295108982112267">@BeMore27: THE GAME IS ON!! Basketball Video gameRed heart RT this to let me know I’ll see you on Twitch. It’s gonna be lit. Link below
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/taylorcsnow/status/1382207662016897025">@taylorcsnow: Jaylen Brown: “I’ve got nothing basketball-wise to talk about.”
-                </a>
-            </li>
-        </ul>
-
-        <h2>Activism</h2>
-        <p>
-            Many NBA players have created their own organizations hoping to use their influence to bring attention to glaring social issues. Whether that is building their own schools, funding scholarships or giving people a chance to succeed, their philanthropy should not go unnoticed.         
-        </p>
-
-        <ul>
-            <li>
-                <a href="https://twitter.com/PrioritySports/status/1367951753061208065">@PrioritySports: Sterling Brown & his SALUTE Foundation partnered with 
-                    @PUMAHoops & @BlackFives to host a viewing of Judas and the Black Messiah for Maywood youth
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/JJudahIsaac/status/1379129641265430537">@JJudahIsaac: Light!
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/JJudahIsaac/status/1375088278253228034">@JJudahIsaac: Jonathan Isaac Sermon
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/RealBillRussell/status/1364845221536653315"> @RealBillRussell: Paul G. Allen Humanitarian Award
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/uninterrupted/status/1382475080685424640">@uninterrupted: Mood for Jackie Robinson Day tomorrow 
-                </a>
-            </li>
-        </ul>
+        <div class="trending">
+            <br><img src="../Project/Images/billrussel.jpg" class="billrussell" alt="Bill Russell as first Black coach in NBA">
+            <section class="trendingsection">
+                <h2>Trending</h2>
+                    <p>
+                        The most trending tweets of the past 24 hours from NBA players will be found here. Whether it’s a controversial comment from the league’s best or a clip of a LeBron James commenting on refereeing post-game, this section will contain the most newsworthy tweets.
+                    </p>
+                    
+                    <ul class="trendinglist">
+                        <li>
+                            <a href="https://twitter.com/NBA/status/1383879482788900865">@NBA: Randle & Zion dueled at MSG today!</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/espn/status/1383777357933158404">@ESPN: 55 years ago, Bill Russell became the first Black coach in NBA history.</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/joeylinn_/status/1383596099089276932">@joeylinn_ Steph Curry is averaging 30 PPG getting defended like this every night.</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Money23Green/status/1383867933248548864">@Money23Green: D Rose still really F%^**$% Good!
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ESPNNBA/status/1383937690429648900">@ESPNNBA: There's no point in jumping with Miles Bridges 
+                            </a>
+                        </li>
+                    </ul>
+            </section>  
+        </div>
+        
+        <div class="culture">
+            <br><img src="../Project/Images/jamalmurraytwitter.JPG" class="jamalmurrayverizon" alt="Jamal Murray Verizon Deal">
+            <section class="cultureheader">
+                <h2>Culture</h2>
+                    <p>
+                        This section will contain tweets from players not pertaining to basketball. Several players like have hobbies or passions outside of basketball and it’s important to understand the stories of NBA players outside of their play.
+                    </p>
+                 <ul class="culturelist">
+                    <li>
+                        <a href="https://twitter.com/BleacherReport/status/1383808499293974531">@BleacherReport: Tatum after his son, Deuce, got to watch him drop 44 points last night
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/KingJames/status/1383901851540545549">@KingJames: BAM BAM
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/RTNBA/status/1383940335408091144">@RTNBA: Kevin Durant names the top 5 players he’s played with. 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/BeMore27/status/1380295108982112267">@BeMore27: THE GAME IS ON!! Basketball Video gameRed heart RT this to let me know I’ll see you on Twitch. It’s gonna be lit. Link below
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/taylorcsnow/status/1382207662016897025">@taylorcsnow: Jaylen Brown: “I’ve got nothing basketball-wise to talk about.”
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        
+        <div class="activism">
+            <br><img src="../Project/Images/activismtweet.jpg" class="jackierobinsonshirt" alt="Jackie Robinson Shirt">
+            <section class="activismhdeader">
+                <h2>Activism</h2>
+                    <p>
+                        Many NBA players have created their own organizations hoping to use their influence to bring attention to glaring social issues. Whether that is building their own schools, funding scholarships or giving people a chance to succeed, their philanthropy should not go unnoticed.         
+                    </p>
+                    <ul class="activismlist">
+                        <li>
+                            <a href="https://twitter.com/PrioritySports/status/1367951753061208065">@PrioritySports: Sterling Brown & his SALUTE Foundation partnered with 
+                                @PUMAHoops & @BlackFives to host a viewing of Judas and the Black Messiah for Maywood youth
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/JJudahIsaac/status/1379129641265430537">@JJudahIsaac: Light!
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/JJudahIsaac/status/1375088278253228034">@JJudahIsaac: Jonathan Isaac Sermon
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/RealBillRussell/status/1364845221536653315"> @RealBillRussell: Paul G. Allen Humanitarian Award
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/uninterrupted/status/1382475080685424640">@uninterrupted: Mood for Jackie Robinson Day tomorrow 
+                            </a>
+                        </li>
+                    </ul>
+            </section>
+        </div>
+        
     </body>  
 
-
-
-
-    
 </html>

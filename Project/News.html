@@ -8,134 +8,169 @@
         <style>
             body {
                 font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(255, 200, 49);
             }
             .logoheader {
                 font-size: 50px;
                 text-align: center;
-                display: inline;
-                height: 400px;
+                margin-top: 50px;
             }
+            .newsheader {
+                flex: 1; 
+                order: 2; 
+                background-color: #7c99b8; 
+                padding: 8px;
+                margin: 10px;
+                }
             nav {
                 font-size: 20px;
+                margin: 10px;
                 text-align: center;
+                margin-top: 50px;
+                margin-bottom: 50px;
             }
-            body {
-                background-color: rgb(149, 194, 196);
-            }
-            .header1 {
-                float:none;
-                width: 300px;
-                height: 200px;
-            }
-            .header2 {
-                float: right;
-                width: 300px;
-                height: 200px;
-            }
+            .gametogame {display: flex; font-family:Arial, Helvetica, sans-serif;}
+            .gametogame {margin: 10px;}
+            .gametogame {flex: 1; order: 2; background-color: #7c99b8;}
+            .gametogamelist {flex: 1; order: 2;}
 
+            .roster {display: flex; font-family:Arial, Helvetica, sans-serif;}
+            .roster {margin: 10px;}
+            .roster {flex: 1; order: 2; background-color: #7c99b8;}
+            .rosterlist {flex: 1; order: 2;}
+
+            .injury {display: flex; font-family:Arial, Helvetica, sans-serif;}
+            .injury {margin: 10px;}
+            .injury {flex: 1; order: 2; background-color: #7c99b8;}
+            .injurylist {flex: 1; order: 2;}
+
+            .giannis {
+                float: right;
+                width: 450px;
+                padding-right: 15px;
+            }
+            .jabariparker {
+                float: right;
+                width: 450px;
+                padding-right: 15px;
+            }
+            .jamalmurrayinjury {
+                float: right;
+                width: 450px;
+                padding-right: 15px;
+            }
         </style>
     </head>
 
     <body>
         <header>
-            <img src="../Project/Images/NBAheaderimage1.jpg" class="header1" alt="Lebron James Dunking">
-            <img src="../Project/Images/NBAheaderimage2.jpg" class ="header2" alt="Stephen Curry Jersey from Behind">
             <i><h1 class="logoheader">The Daily Tipoff</h1></i>
             <nav class="otherpages">
                 <a href="Twitter.html">Twitter</a>
                 <a href="Highlights.html">Highlights</a>
+                <a href="News.html">News</a>
             </nav>
         </header>
     
-        <h1>News</h1>
-        <p>
-            This page is dedicated to the most recent news regarding the NBA. News comes quick and from a variety of different sources so there will be an aggregation of several reliable sources ranging from ESPN, Bleacher Report, NBA.com and more. 
-        </p>
-        <section>
-            <h2>Game-to-Game</h2>
+        <section class="newsheader">
+            <h1>News</h1>
             <p>
-                Here you’ll find the most recent news coming out of the previous week of NBA games. News in this category may include top performers, comments from a player during a media scrum or COVID-19 related news.
+                This page is dedicated to the most recent news regarding the NBA. News comes quick and from a variety of different sources so there will be an aggregation of several reliable sources ranging from ESPN, Bleacher Report, NBA.com and more. 
             </p>
-    
-            <ul>
-                <li>
-                    <a href="https://bleacherreport.com/articles/2939996-updated-nba-championship-odds-1-month-before-the-playoffs">Bleacher Report: Updated Chapionship Odds 1 Month Before the Playoffs</a>
-                </li>
-                <li>
-                    <a href="https://www.cbssports.com/nba/news/stephen-curry-joins-kobe-bryant-michael-jordan-in-nba-record-book-as-torrid-scoring-streak-continues/">CBS NBA: Stephen Curry joins Kobe Bryant, Michael Jordan in NBA record book as torrid scoring streak continues</a>
-                </li>
-                <li>
-                    <a href="https://www.nba.com/news/russell-westbrook-logs-7th-straight-triple-double-now-10-shy-of-oscar-robertsons-career-mark">NBA.com: Russell Westbrook logs 7th straight triple-double, now 10 shy of Oscar Robertson's career mark</a>
-                </li>
-                <li>
-                    <a href="https://www.nba.com/news/giannis-antetokounmpo-from-6-game-absence-as-bucks-drop-hawks">NBA.com: Giannis Antetokounmpo returns from 6-game absence
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.nba.com/news/nets-lamarcus-aldridge-announces-hes-retiring-from-nba">NBA.com: LaMarcus Aldridge announces retirement at 35 due to irregular heartbeat
-                    </a>
-                </li>
-            </ul>    
         </section>
 
-        <section>
-            <h2>Roster News</h2>
-            <p>
-                Here you’ll find news regarding trades, trade rumors or other roster related news. Due to the fact that trade rumors oftentimes evolve as time goes on, the most updated version of the information will be provided from a reliable source.
-            </p>
-    
-            <ul>
-                <li>
-                    <a href="https://www.nba.com/news/celtics-sign-jabari-parker">NBA.com: Celtics sign Jabari Parker
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.nbcsports.com/bayarea/warriors/nba-rumors-warriors-sign-gary-payton-ii-second-10-day-contract">NBC Sports: Report: Warriors to sign Payton II to second 10-day contract
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.nba.com/news/jimmy-butler-calls-struggling-miami-heat-soft-urges-bully-ball">NBA.com: Jimmy Butler calls struggling Miami Heat 'soft,' urges 'bully ball'
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.cbssports.com/nba/news/bulls-on-shaky-ground-without-zach-lavine-as-chicago-has-gone-3-8-since-nikola-vucevic-trade/">CBS NBA: Bulls on shaky ground without Zach LaVine as Chicago has gone 3-8 since Nikola Vucevic trade
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.cbssports.com/nba/news/raptors-fined-25000-for-violating-leagues-policies-on-resting-players-and-injury-reporting/">CBS NBA: Raptors fined $25,000 for violating league's policies on resting players and injury reporting
-                    </a>
-                </li>
-            </ul>
-        </section>
-       
-        <section>
-            <h2>Injury News</h2>
-            <p>
-                The purpose of this section is to provide updates on injuries. Most reporting will come in the form of press statements or pre-game roster updates so expect to see a variety of mediums. Updates on recent, past and potential injuries will be provided in this section along with further analysis if provided.
-            </p>
-    
-            <ul>
-                <li>
-                    <a href="https://www.cbssports.com/nba/news/kevin-durant-injury-latest-nets-star-leaves-heat-game-early-with-left-thigh-contusion/">CBS NBA: Kevin Durant injury latest: Nets star leaves Heat game early with left thigh contusion
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.espn.com/nba/story/_/id/31263924/chicago-bulls-zach-lavine-health-safety-protocol-expected-miss-several-games-sources-say">ESPN: Chicago Bulls' Zach LaVine in health and safety protocol, expected to miss several games, sources say
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.espn.com/nba/story/_/id/31259492/nuggets-star-jamal-murray-devastated-season-ending-acl-injury-michael-malone-says">ESPN: Nuggets star Jamal Murray 'devastated' after season-ending ACL injury, coach Michael Malone says
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.espn.com/nba/story/_/id/31232943/los-angeles-lakers-anthony-davis-return-10-14-days-lebron-james-close-behind"> ESPN: Sources: Los Angeles Lakers' Anthony Davis could return in 10-14 days, with LeBron James close behind
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.espn.com/nba/story/_/id/31275194/utah-jazz-donovan-mitchell-expected-miss-several-games-mri-shows-no-structural-damage-sources-say">ESPN: Utah Jazz's Donovan Mitchell expected to miss several games after MRI shows no structural damage, sources say
-                    </a>
-                </li>
-            </ul>    
-        </section>
+        <div class="gametogame">
+            <br><img src="../Project/Images/gametogame.jpeg" class="giannis" alt="Giannis Antetokounpo returns from injury">
+            <section class="gametogamesection">
+                <h2>Game-to-Game</h2>
+                <p>
+                    Here you’ll find the most recent news coming out of the previous week of NBA games. News in this category may include top performers, comments from a player during a media scrum or COVID-19 related news.
+                </p>
+                <ul class="gametogamelist">
+                    <li>
+                        <a href="https://bleacherreport.com/articles/2939996-updated-nba-championship-odds-1-month-before-the-playoffs">Bleacher Report: Updated Chapionship Odds 1 Month Before the Playoffs</a>
+                    </li>
+                    <li>
+                        <a href="https://www.cbssports.com/nba/news/stephen-curry-joins-kobe-bryant-michael-jordan-in-nba-record-book-as-torrid-scoring-streak-continues/">CBS NBA: Stephen Curry joins Kobe Bryant, Michael Jordan in NBA record book as torrid scoring streak continues</a>
+                    </li>
+                    <li>
+                        <a href="https://www.nba.com/news/russell-westbrook-logs-7th-straight-triple-double-now-10-shy-of-oscar-robertsons-career-mark">NBA.com: Russell Westbrook logs 7th straight triple-double, now 10 shy of Oscar Robertson's career mark</a>
+                    </li>
+                    <li>
+                        <a href="https://www.nba.com/news/giannis-antetokounmpo-from-6-game-absence-as-bucks-drop-hawks">NBA.com: Giannis Antetokounmpo returns from 6-game absence
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nba.com/news/nets-lamarcus-aldridge-announces-hes-retiring-from-nba">NBA.com: LaMarcus Aldridge announces retirement at 35 due to irregular heartbeat
+                        </a>
+                    </li>
+                </ul>    
+            </section>
+        </div>
+        
+        <div class="roster">
+            <br><img src="../Project/Images/roster.jpg" class="jabariparker" alt="Jabari Parker Signs with Celtics">
+            <section class="rostersection">
+                <h2>Roster News</h2>
+                <p>
+                    Here you’ll find news regarding trades, trade rumors or other roster related news. Due to the fact that trade rumors oftentimes evolve as time goes on, the most updated version of the information will be provided from a reliable source.
+                </p>
+                <ul class="rosterlist">
+                    <li>
+                        <a href="https://www.nba.com/news/celtics-sign-jabari-parker">NBA.com: Celtics sign Jabari Parker
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nbcsports.com/bayarea/warriors/nba-rumors-warriors-sign-gary-payton-ii-second-10-day-contract">NBC Sports: Report: Warriors to sign Payton II to second 10-day contract
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nba.com/news/jimmy-butler-calls-struggling-miami-heat-soft-urges-bully-ball">NBA.com: Jimmy Butler calls struggling Miami Heat 'soft,' urges 'bully ball'
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cbssports.com/nba/news/bulls-on-shaky-ground-without-zach-lavine-as-chicago-has-gone-3-8-since-nikola-vucevic-trade/">CBS NBA: Bulls on shaky ground without Zach LaVine as Chicago has gone 3-8 since Nikola Vucevic trade
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cbssports.com/nba/news/raptors-fined-25000-for-violating-leagues-policies-on-resting-players-and-injury-reporting/">CBS NBA: Raptors fined $25,000 for violating league's policies on resting players and injury reporting
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        
+       <div class="injury">
+            <br><img src="../Project/Images/injury.jpg" class="jamalmurrayinjury" alt="Jamal Murray with Serious Injury">
+            <section class="injurysection">
+                <h2>Injury News</h2>
+                <p>
+                    The purpose of this section is to provide updates on injuries. Most reporting will come in the form of press statements or pre-game roster updates so expect to see a variety of mediums. Updates on recent, past and potential injuries will be provided in this section along with further analysis if provided.
+                </p>
+                <ul class="injurylist">
+                    <li>
+                        <a href="https://www.cbssports.com/nba/news/kevin-durant-injury-latest-nets-star-leaves-heat-game-early-with-left-thigh-contusion/">CBS NBA: Kevin Durant injury latest: Nets star leaves Heat game early with left thigh contusion
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.espn.com/nba/story/_/id/31263924/chicago-bulls-zach-lavine-health-safety-protocol-expected-miss-several-games-sources-say">ESPN: Chicago Bulls' Zach LaVine in health and safety protocol, expected to miss several games, sources say
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.espn.com/nba/story/_/id/31259492/nuggets-star-jamal-murray-devastated-season-ending-acl-injury-michael-malone-says">ESPN: Nuggets star Jamal Murray 'devastated' after season-ending ACL injury, coach Michael Malone says
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.espn.com/nba/story/_/id/31232943/los-angeles-lakers-anthony-davis-return-10-14-days-lebron-james-close-behind"> ESPN: Sources: Los Angeles Lakers' Anthony Davis could return in 10-14 days, with LeBron James close behind
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.espn.com/nba/story/_/id/31275194/utah-jazz-donovan-mitchell-expected-miss-several-games-mri-shows-no-structural-damage-sources-say">ESPN: Utah Jazz's Donovan Mitchell expected to miss several games after MRI shows no structural damage, sources say
+                        </a>
+                    </li>
+                </ul>    
+            </section>
+       </div>
+        
     </body>
 </html>
