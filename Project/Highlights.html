@@ -7,20 +7,23 @@
         <title>Highlights</title>
         <style>
             body {
-                font-family: Arial, Helvetica, sans-serif;
-                background-color: rgb(255, 200, 49);
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                background-color: #5cdb95;
             }
             .logoheader {
                 font-size: 50px;
                 text-align: center;
                 margin-top: 50px;
+                color: #edf5e1;
             }
             .highlightsheader {
                 flex: 1; 
                 order: 2; 
-                background-color: #7c99b8; 
+                background-color: #05386b;
+                color: #edf5e1;
                 padding: 8px;
                 margin: 10px;
+                border-radius: 1em;
                 }
             nav {
                 font-size: 20px;
@@ -29,25 +32,37 @@
                 margin-top: 50px;
                 margin-bottom: 50px;
             }
-            .highlights {display: flex; font-family:Arial, Helvetica, sans-serif;}
+            a:link, a:visited {
+                color: #edf5e1
+            }
+            .otherpages {
+                color: #edf5e1
+            }
+            .highlights {display: flex; border-radius: 1em;}
+            .highlights {color: #edf5e1; background-color: #05386b}
             .highlights {margin: 10px;}
-            .highlights {flex: 1; order: 2; background-color: #7c99b8;}
-            .videolist {flex: 1; order: 2;}
+            .highlights {flex: 1;}
+            .videolist {flex: 1;}
 
-            .creatorcontent {display: flex; font-family:Arial, Helvetica, sans-serif;}
+            .creatorcontent {display: flex; border-radius: 1em;}
+            .creatorcontent {color: #edf5e1; background-color: #05386b}
             .creatorcontent {margin: 10px;}
-            .creatorcontent {flex: 1; order: 2; background-color: #7c99b8;}
-            .creatorlist {flex: 1; order: 2;}
+            .creatorcontent {flex: 1;}
+            .creatorlist {flex: 1;}
 
             .raptorthunder {
                 float: right;
                 width: 450px;
                 padding-right: 15px;
+                margin: 10px;
+                border-radius: 15px 50px 30px;
             }
             .jokicembiid {
                 float: right;
                 width: 450px;
                 padding-right: 15px;
+                margin: 10px;
+                border-radius: 15px 50px 30px;
             }
         </style>
         <link rel="shortcut icon" type="image/x-icon" href="../Project/Images/favicon.ico">
@@ -57,8 +72,8 @@
         <header>
             <i><h1 class="logoheader">The Daily Tipoff</h1></i>
             <nav class="otherpages">
-                <a href="Twitter.html">Twitter</a>
-                <a href="Highlights.html">Highlights</a>
+                <a href="Twitter.html">Twitter</a>&#124;
+                <a href="Highlights.html">Highlights</a>&#124;
                 <a href="News.html">News</a>
             </nav>
         </header>

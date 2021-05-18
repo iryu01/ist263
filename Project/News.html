@@ -6,21 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>News</title>
         <style>
-            body {
-                font-family: Arial, Helvetica, sans-serif;
-                background-color: rgb(255, 200, 49);
+                body {
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                background-color: #5cdb95;
             }
             .logoheader {
                 font-size: 50px;
                 text-align: center;
                 margin-top: 50px;
+                color: #edf5e1;
             }
             .newsheader {
                 flex: 1; 
                 order: 2; 
-                background-color: #7c99b8; 
+                background-color: #05386b;
+                color: #edf5e1;
                 padding: 8px;
                 margin: 10px;
+                border-radius: 1em;
                 }
             nav {
                 font-size: 20px;
@@ -29,35 +32,50 @@
                 margin-top: 50px;
                 margin-bottom: 50px;
             }
-            .gametogame {display: flex; font-family:Arial, Helvetica, sans-serif;}
+            a:link, a:visited {
+                color: #edf5e1
+            }
+            .otherpages {
+                color: #edf5e1
+            }
+            .gametogame {display: flex; border-radius: 1em;}
+            .gametogame {color: #edf5e1; background-color: #05386b}
             .gametogame {margin: 10px;}
-            .gametogame {flex: 1; order: 2; background-color: #7c99b8;}
-            .gametogamelist {flex: 1; order: 2;}
+            .gametogame {flex: 1;}
+            .gametogamelist {flex: 1;}
 
-            .roster {display: flex; font-family:Arial, Helvetica, sans-serif;}
+            .roster {display: flex; border-radius: 1em;}
+            .roster {color: #edf5e1; background-color: #05386b}
             .roster {margin: 10px;}
-            .roster {flex: 1; order: 2; background-color: #7c99b8;}
-            .rosterlist {flex: 1; order: 2;}
+            .roster {flex: 1;}
+            .rosterlist {flex: 1;}
 
-            .injury {display: flex; font-family:Arial, Helvetica, sans-serif;}
+            .injury {display: flex; border-radius: 1em;}
+            .injury {color: #edf5e1; background-color: #05386b}
             .injury {margin: 10px;}
-            .injury {flex: 1; order: 2; background-color: #7c99b8;}
-            .injurylist {flex: 1; order: 2;}
+            .injury {flex: 1;}
+            .injurylist {flex: 1;}
 
             .giannis {
                 float: right;
                 width: 450px;
                 padding-right: 15px;
+                margin: 10px;
+                border-radius: 15px 50px 30px;
             }
             .jabariparker {
                 float: right;
                 width: 450px;
                 padding-right: 15px;
+                margin: 10px;
+                border-radius: 15px 50px 30px;
             }
             .jamalmurrayinjury {
                 float: right;
                 width: 450px;
                 padding-right: 15px;
+                margin: 10px;
+                border-radius: 15px 50px 30px;
             }
         </style>
         <link rel="shortcut icon" type="image/x-icon" href="../Project/Images/favicon.ico">
@@ -67,8 +85,8 @@
         <header>
             <i><h1 class="logoheader">The Daily Tipoff</h1></i>
             <nav class="otherpages">
-                <a href="Twitter.html">Twitter</a>
-                <a href="Highlights.html">Highlights</a>
+                <a href="Twitter.html">Twitter</a>&#124;
+                <a href="Highlights.html">Highlights</a>&#124;
                 <a href="News.html">News</a>
             </nav>
         </header>
