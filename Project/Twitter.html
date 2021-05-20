@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Twitter</title>
         <style>
-                body {
+            body {
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
                 background-color: #5cdb95;
             }
@@ -14,7 +14,7 @@
                 font-size: 50px;
                 text-align: center;
                 margin-top: 50px;
-                color: #edf5e1;
+                color: #05386b;
             }
             .twitterheader {
                 flex: 1; 
@@ -24,7 +24,7 @@
                 padding: 8px;
                 margin: 10px;
                 border-radius: 1em;
-                }
+            }
             nav {
                 font-size: 20px;
                 margin: 10px;
@@ -36,43 +36,47 @@
                 color: #edf5e1
             }
             .otherpages {
-                color: #edf5e1
+                color: #05386b;
             }
+            
             .trending {display: flex;}
+            .trending {border-radius: 1em;}
             .trending {color: #edf5e1; background-color: #05386b}
+            .trending{padding: 10px;}
             .trending {margin: 10px;}
             .trending {flex: 1;}
-            .trendinglist {flex: 1;}
 
             .culture {display: flex;}
+            .culture {border-radius: 1em;}
             .culture {color: #edf5e1; background-color: #05386b}
+            .culture{padding: 10px;}
             .culture {margin: 10px;}
             .culture {flex: 1;}
-            .culturelist {flex: 1}
 
             .activism {display: flex;}
+            .activism {border-radius: 1em;}
             .activism {color: #edf5e1; background-color: #05386b}
+            .activism {padding: 10px;}
             .activism {margin: 10px;}
             .activism {flex: 1;}
-            .activismlist {flex: 1;}
 
             .billrussell {
-                float: right;
-                width: 450px;
+                float: left;
+                max-width: 400px;
                 padding-right: 15px;
                 margin: 10px;
                 border-radius: 15px 50px 30px;
             }
             .jamalmurrayverizon {
-                float: right;
-                width: 450px;
+                float: left;
+                max-width: 400px;
                 padding-right: 15px;
                 margin: 10px;
                 border-radius: 15px 50px 30px;
             }
             .jackierobinsonshirt {
-                float: right;
-                width: 450px;
+                float: left;
+                max-width: 400px;
                 padding-right: 15px;
                 margin: 10px;
                 border-radius: 15px 50px 30px;
@@ -99,9 +103,10 @@
         </section>
 
         <div class="trending">
-            <br><img src="../Project/Images/billrussel.jpg" class="billrussell" alt="Bill Russell as first Black coach in NBA">
+            <br>
             <section class="trendingsection">
-                <h2>Trending</h2>
+                <img src="../Project/Images/billrussel.jpg" class="billrussell" alt="Bill Russell as first Black coach in NBA">
+                <h3>Trending</h3>
                     <p>
                         The most trending tweets of the past 24 hours from NBA players will be found here. Whether it’s a controversial comment from the league’s best or a clip of a LeBron James commenting on refereeing post-game, this section will contain the most newsworthy tweets.
                     </p>
@@ -129,9 +134,10 @@
         </div>
         
         <div class="culture">
-            <br><img src="../Project/Images/jamalmurraytwitter.JPG" class="jamalmurrayverizon" alt="Jamal Murray Verizon Deal">
+            <br>
             <section class="cultureheader">
-                <h2>Culture</h2>
+                <img src="../Project/Images/jamalmurraytwitter.JPG" class="jamalmurrayverizon" alt="Jamal Murray Verizon Deal">
+                <h3>Culture</h3>
                     <p>
                         This section will contain tweets from players not pertaining to basketball. Several players like have hobbies or passions outside of basketball and it’s important to understand the stories of NBA players outside of their play.
                     </p>
@@ -161,9 +167,10 @@
         </div>
         
         <div class="activism">
-            <br><img src="../Project/Images/activismtweet.jpg" class="jackierobinsonshirt" alt="Jackie Robinson Shirt">
+            <br>
             <section class="activismhdeader">
-                <h2>Activism</h2>
+                <img src="../Project/Images/activismtweet.jpg" class="jackierobinsonshirt" alt="Jackie Robinson Shirt">
+                <h3>Activism</h3>
                     <p>
                         Many NBA players have created their own organizations hoping to use their influence to bring attention to glaring social issues. Whether that is building their own schools, funding scholarships or giving people a chance to succeed, their philanthropy should not go unnoticed.         
                     </p>
@@ -192,7 +199,5 @@
                     </ul>
             </section>
         </div>
-        
     </body>  
-
 </html>
