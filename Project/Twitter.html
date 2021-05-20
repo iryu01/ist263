@@ -81,6 +81,16 @@
                 margin: 10px;
                 border-radius: 15px 50px 30px;
             }
+
+            #hamicon {display: none;}
+            @media only screen and (max-width: 600px) {
+                span {display: none;}
+                #hamicon {display: block;}
+                nav a {
+                    display: block;
+                    padding: 10px 0px;
+                    }
+            }
         </style>
         <link rel="shortcut icon" type="image/x-icon" href="../Project/Images/favicon.ico">
     </head>
@@ -89,8 +99,8 @@
         <header>
             <i><h1 class="logoheader">The Daily Tipoff</h1></i>
             <nav class="otherpages">
-                <a href="Twitter.html" style="color: #05386b;">Twitter</a>&#124;
-                <a href="Highlights.html" style="color: #05386b;">Highlights</a>&#124;
+                <a href="Twitter.html" style="color: #05386b;">Twitter</a><span>|</span>
+                <a href="Highlights.html" style="color: #05386b;">Highlights</a><span>|</span>
                 <a href="News.html" style="color: #05386b;">News</a>
             </nav>
         </header>
